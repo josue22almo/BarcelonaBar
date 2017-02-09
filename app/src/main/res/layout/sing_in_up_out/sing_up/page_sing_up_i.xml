@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SingUP.pSingUp_I"
+    android:id="@+id/layout_sing_up_i"
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/ResNext"
+        android:gravity="center"
+        android:id="@+id/txt_sing_up_i_next"
+        android:textSize="45dp"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:background="@color/colorPrimaryDark"
+        android:autoText="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:id="@+id/img_back_sing_up_i"
+        android:src="@mipmap/icon_arrow_left"
+        android:padding="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="193dp"
+        android:layout_height="193dp"
+        android:id="@+id/imageView2"
+        android:layout_gravity="center_horizontal|top"
+        android:src="@mipmap/icon_app"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/img_back_sing_up_i" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/ResSingUpTitle"
+        android:id="@+id/txt_sing_up_title"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:layout_below="@+id/img_back_sing_up_i"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <AutoCompleteTextView
+        android:id="@+id/edit_sing_up_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ResUser"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/txt_sing_up_title"
+        android:layout_alignEnd="@+id/edit_sing_up_mail"
+        android:layout_alignStart="@+id/edit_sing_up_mail" />
+
+    <AutoCompleteTextView
+        android:id="@+id/edit_sing_up_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ResMail"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_below="@+id/edit_sing_up_name"
+        android:layout_alignEnd="@+id/edit_sing_up_birthdate"
+        android:layout_alignStart="@+id/edit_sing_up_birthdate"
+        android:layout_marginTop="20dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/edit_sing_up_birthdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ResBirthDate"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_below="@+id/edit_sing_up_mail"
+        android:layout_alignEnd="@+id/edit_sing_up_password"
+        android:layout_alignStart="@+id/edit_sing_up_password"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/edit_sing_up_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ResPassword"
+        android:imeActionId="@+id/login"
+        android:imeActionLabel="@string/action_sign_in_short"
+        android:imeOptions="actionUnspecified"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_below="@+id/edit_sing_up_birthdate"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

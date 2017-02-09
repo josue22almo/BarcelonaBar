@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".SingIN.pSingIN"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="@string/ResSingInTitle"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/txt_login_title"
+        android:textStyle="bold"
+        android:layout_below="@+id/img_back_sing_in"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:id="@+id/img_back_sing_in"
+        android:src="@mipmap/icon_arrow_left"
+        android:padding="20dp"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/ResContinue"
+        android:gravity="center"
+        android:id="@+id/txt_sing_in_login"
+        android:textSize="45dp"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/txt_login_title" />
+
+    <EditText
+        android:id="@+id/edit_sing_in_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ResPassword"
+        android:imeActionId="@+id/login"
+        android:imeActionLabel="@string/action_sign_in_short"
+        android:imeOptions="actionUnspecified"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_below="@+id/edit_sing_in_user"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/edit_sing_in_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ResUserOrMail"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/txt_login_title"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/ResPasswordForgive"
+        android:id="@+id/txt_sing_in_password_reset"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@+id/edit_sing_in_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/ResPasswordForgive"
+        android:id="@+id/txt_sing_in_auth_error"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_below="@+id/txt_sing_in_password_reset"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="193dp"
+        android:layout_height="193dp"
+        android:id="@+id/imageView5"
+        android:layout_gravity="center_horizontal|top"
+        android:src="@mipmap/icon_app"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/txt_login_title" />
+
+</RelativeLayout>

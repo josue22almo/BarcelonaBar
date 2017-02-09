@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="giam.myapplication">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.pdermission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_app"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".page_load"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SaludoActivity" />
+        <activity android:name=".page_sing_in_up" />
+        <activity android:name=".singUpPage" />
+        <activity android:name=".SingIN.pSingIN" />
+        <activity android:name=".SingUP.pSingUp_I" />
+        <activity android:name=".SingUP.pSingUp_II" />
+        <activity android:name=".SingUP.pSingUp_III" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".page_main"
+            android:label="@string/title_activity_page_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="layout.Ajustes.ajustes_main"
+            android:label="@string/title_activity_ajustes_main"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar"></activity>
+    </application>
+
+</manifest>

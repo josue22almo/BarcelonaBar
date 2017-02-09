@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SingUP.pSingUp_II"
+    android:id="@+id/layout_sing_up_ii">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:id="@+id/img_sing_up_ii_back"
+        android:src="@mipmap/icon_arrow_left"
+        android:padding="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/ResStart"
+        android:gravity="center"
+        android:id="@+id/txt_sing_up_ii_next"
+        android:textSize="45dp"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="193dp"
+        android:layout_height="193dp"
+        android:id="@+id/imageView3"
+        android:layout_gravity="center_horizontal|top"
+        android:src="@mipmap/icon_app"
+        android:layout_alignBottom="@+id/img_sing_up_ii_back"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Al &quot;EMPEZAR&quot; acepta las CONDICIONES DE USO y las POLITICAS DE PRIVACIDAD"
+        android:id="@+id/textView"
+        android:layout_below="@+id/img_sing_up_ii_back"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/txt_sing_up_ii_next" />
+
+</RelativeLayout>

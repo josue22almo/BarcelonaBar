@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">                    APP NAME</string>
+    <string name="app_preferences">             giam_preferences</string>
+    <string name="ReswelcomeTo">                Bienvenido a</string>
+    <string name="Resnombre">                   Escribe tu nombre:</string>
+    <string name="Resaceptar">                  JUST DO IT!</string>
+    <string name="ResContinue">                 Continuar</string>
+    <string name="ResSingUp">                   Continuar</string>
+    <string name="ResSingIn">                   Empezar</string>
+    <string name="ResNext">                     Siguiente</string>
+    <string name="ResStart">                    Empezar</string>
+    <string name="navigation_drawer_open">      Open navigation drawer</string>
+    <string name="navigation_drawer_close">     Close navigation drawer</string>
+    <string name="ResPerson">                   Person</string>
+    <string name="ResLocal">                    Local</string>
+    <string name="ResUser">                     Usuario</string>
+    <string name="ResBirthDate">                Fecha de Cumpleaños</string>
+    <string name="ResMail">                     Mail</string>
+    <string name="ResMailRepat">                Repeat mail</string>
+    <string name="ResMailDiferrent">            Mails not equal</string>
+    <string name="ResFacebook">                 Facebook</string>
+    <string name="ResGoogle">                   Google</string>
+    <string name="ResTwitter">                  Twitter</string>
+    <string name="ResPassword">                 Contraseña</string>
+    <string name="ResSingInTitle">              Iniciar Sección</string>
+    <string name="ResSingUpTitle">              Datos Personales</string>
+    <string name="ResUserOrMail">               Usuario o Mail</string>
+    <string name="ResPerfil">                   Perfil</string>
+
+    <string name="ResInicio">                   Inicio</string>
+    <string name="ResDescubre">                 Descubre</string>
+    <string name="ResCalendario">               Calendario</string>
+    <string name="ResActividad">                Actividad</string>
+    <string name="ResAjustes">                  Ajustes</string>
+
+
+    <string name="ResPasswordRepeat">           Repeat your password</string>
+    <string name="ResPasswordDifferent">        Password not equal</string>
+    <string name="ResPasswordForgive">          He olvidado mi contraseña</string>
+    <string name="title_activity_scrolling">    ScrollingActivity</string>
+    <string name="title_activity_page_main">    Main Page</string>
+    <string name="action_settings">             Settings</string>
+    <string name="ResSingUp_Title_I">           Select one of them</string>
+    <string name="ResSingUp_Title_II">          Let me know you a little</string>
+    <string name="ResSingUp_Title_III">         You need a secure password</string>
+
+    <string name="title_activity_login">        Iniciar</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_not_empty_field">Campo obligatorio</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_actividad_main">actividad_main</string>
+    <string name="title_activity_ajustes_main">ajustes_main</string>
+
+
+</resources>
